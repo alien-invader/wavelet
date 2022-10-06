@@ -34,10 +34,10 @@ class Handler implements URLHandler {
                     
                     for (String eachstring : result) {
                         if(eachstring.contains(substring)){
-                            temp += eachstring + " ";
+                            temp += eachstring + ", ";
                         }
                     }
-                    return "Your search result is " + temp;
+                    return "Your search result is: " + temp;
                     //num += Integer.parseInt(parameters[1]);
                     //return String.format("Number increased by %s! It's now %d", parameters[1], num);
             }
