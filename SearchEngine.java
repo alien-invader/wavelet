@@ -34,7 +34,7 @@ class Handler implements URLHandler {
                     
                     for (String eachstring : result) {
                         if(eachstring.contains(substring)){
-                            temp += eachstring + ", ";
+                            temp += eachstring + " ";
                         }
                     }
                     return "Your search result is: " + temp;
